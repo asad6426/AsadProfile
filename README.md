@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Md. Asaduzzaman — Portfolio
 
-## Getting Started
+Static portfolio site built with plain **HTML, CSS and Bootstrap 5** (no build step, no
+framework) — ready to publish with GitHub Pages.
 
-First, run the development server:
+## Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+index.html      Main page (all sections)
+css/style.css   Custom styles
+js/script.js    Small interactions (back-to-top, mobile nav, footer year)
+webapp/         An earlier Next.js version with an admin panel + student
+                submission form (kept for future use, not part of the static site)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Just open `index.html` in a browser, or serve it:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+python -m http.server 5500
+# then open http://localhost:5500
+```
 
-## Learn More
+## Publish with GitHub Pages
 
-To learn more about Next.js, take a look at the following resources:
+1. Push this repo to GitHub.
+2. In the repo, go to **Settings → Pages**.
+3. Under "Build and deployment", set **Source: Deploy from a branch**, branch **main**, folder
+   **/ (root)**.
+4. Save — your site will be live at `https://<username>.github.io/<repo-name>/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Editing content
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Everything is in `index.html` — sections are marked with comments (`<!-- Hero -->`,
+`<!-- Experience -->`, `<!-- Skills -->`, `<!-- Projects -->`, `<!-- Students -->`, etc.). Edit
+the text directly. Colors and spacing live in `css/style.css`.
 
-## Deploy on Vercel
+## Later: custom domain / dynamic version
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The `webapp/` folder has a Next.js version with an admin login (edit profile/projects from the
+browser) and a public link where students can submit their own info for approval. It needs a
+Node.js host (not GitHub Pages) to run. See `webapp/README.md` for details — useful once you
+move to real domain hosting.

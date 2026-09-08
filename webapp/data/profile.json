@@ -1,0 +1,122 @@
+{
+  "name": "Md. Asaduzzaman",
+  "title": "Software Developer & Trainer",
+  "about": "5.5+ years of experience in Software Development, Teaching, Training, Research and Marketing in the CSE/IT field. I am self-motivated and a quick learner, working to be a successful and faithful software developer & trainer while exploring my creativity and skills.",
+  "photo": null,
+  "phone": "01708559476",
+  "email": "asad01708559476@gmail.com",
+  "address": "43, Sukrabad, Dhaka",
+  "social": {
+    "github": "",
+    "linkedin": "",
+    "facebook": "",
+    "website": ""
+  },
+  "skills": [
+    { "id": "skill-1", "name": "Python", "level": 90 },
+    { "id": "skill-2", "name": "Django", "level": 88 },
+    { "id": "skill-3", "name": "Flask", "level": 80 },
+    { "id": "skill-4", "name": "HTML", "level": 90 },
+    { "id": "skill-5", "name": "CSS / Bootstrap", "level": 85 },
+    { "id": "skill-6", "name": "JavaScript", "level": 75 },
+    { "id": "skill-7", "name": "React", "level": 70 },
+    { "id": "skill-8", "name": "DRF / API Development", "level": 80 },
+    { "id": "skill-9", "name": "OOP", "level": 85 },
+    { "id": "skill-10", "name": "Database", "level": 80 },
+    { "id": "skill-11", "name": "Data Science (Pandas, Numpy, Scikit)", "level": 80 },
+    { "id": "skill-12", "name": "Data Visualization (Matplotlib, Seaborn, Plotly, Tableau, Power BI)", "level": 75 },
+    { "id": "skill-13", "name": "N8N / AI Automation", "level": 70 }
+  ],
+  "softSkills": ["Communication", "Leadership", "Team Work", "Adaptability", "Analytical", "Management", "Problem Solving"],
+  "languages": ["Bengali", "English"],
+  "experience": [
+    {
+      "id": "exp-1",
+      "title": "Software Developer and Lead Trainer (Data Science, Big Data, AI Automation), PGD Course",
+      "organization": "Daffodil International Professional Training Institute (DIPTI)",
+      "period": "July 2020 - Present",
+      "points": [
+        "Data Science Training",
+        "Django & Flask Development",
+        "Machine Learning with Scikit-learn",
+        "Git & Database Tools",
+        "Pandas, Numpy",
+        "Matplotlib, Seaborn, Plotly, Tableau, Power BI",
+        "N8N Automation"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "title": "Lead Trainer of Python, Django (Full Time), NSDA Project",
+      "organization": "Daffodil International Professional Training Institute (DIPTI)",
+      "period": "August 2023 - November 2024",
+      "points": ["Django", "Python", "HTML, CSS, Bootstrap", "JavaScript", "React", "DRF, API Development & Integration"]
+    },
+    {
+      "id": "exp-3",
+      "title": "Lecturer, Part-Time (CSE)",
+      "organization": "Daffodil International University",
+      "period": "July 2022 - December 2022",
+      "points": ["Bio Informatics", "Computer Graphics", "C Programming", "Data Structure"]
+    },
+    {
+      "id": "exp-4",
+      "title": "Research Assistant",
+      "organization": "ICT Division, Bangladesh",
+      "period": "July 2021 - June 2023",
+      "points": ["Integration of Learning Technologies in E-Learning Systems Based on IEEE LTSA Model"]
+    },
+    {
+      "id": "exp-5",
+      "title": "Junior Executive (Trainee)",
+      "organization": "Skill.jobs, Daffodil Group",
+      "period": "May 2019 - March 2020",
+      "points": []
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "MSc in Computer Science & Engineering",
+      "institute": "Bangladesh University of Engineering and Technology (BUET)",
+      "period": "2021 - Continuing",
+      "result": "CGPA 3.00 out of 4.00"
+    },
+    {
+      "id": "edu-2",
+      "degree": "BSc in Computer Science & Engineering",
+      "institute": "Daffodil International University (DIU)",
+      "period": "2016 - 2021",
+      "result": "CGPA 3.42 out of 4.00"
+    },
+    {
+      "id": "edu-3",
+      "degree": "HSC, Science Group",
+      "institute": "Naogaon Govt. College, Rajshahi Board",
+      "period": "2016 - 2021",
+      "result": "GPA 4.70 out of 5.00"
+    },
+    {
+      "id": "edu-4",
+      "degree": "SSC, Science Group",
+      "institute": "Labhanga Sundarpur High School, Rajshahi Board",
+      "period": "2016 - 2021",
+      "result": "GPA 4.70 out of 5.00"
+    }
+  ],
+  "certifications": [
+    { "id": "cert-1", "title": "Web Application Development with Python Level-4", "organization": "National Skill Development Authority (NSDA), Prime Minister's Office", "year": "2024" },
+    { "id": "cert-2", "title": "Competency Based Training and Assessment Methodology Level-4", "organization": "NSDA, Prime Minister's Office", "year": "2024" },
+    { "id": "cert-3", "title": "Web Design and Development for Freelancing Level-3", "organization": "NSDA, Prime Minister's Office", "year": "2025" },
+    { "id": "cert-4", "title": "Android Mobile Application Development Level-4", "organization": "NSDA, Prime Minister's Office", "year": "2026" },
+    { "id": "cert-5", "title": "Data Science - Analytics and Big Data Level-4", "organization": "NSDA, Prime Minister's Office", "year": "2026" }
+  ],
+  "awards": [
+    { "id": "award-1", "title": "ICT Fellowship 2021-23", "organization": "Academic Excellence", "year": "2021-2023" }
+  ],
+  "extracurricular": ["Lead Volunteer at Skill.jobs", "Founding Advisor, Naogaon Association", "Conducting Workshops", "Entrepreneur of a Restaurant"],
+  "references": [
+    { "id": "ref-1", "name": "Dr. S. M. Aminul Haque", "title": "Professor and Associate Head", "organization": "Daffodil International University", "email": "aminul.cse@daffodilvarsity.edu.bd", "phone": "01847140129" },
+    { "id": "ref-2", "name": "Dr. Abu Syed Md. Latiful Haque", "title": "Professor", "organization": "Bangladesh University of Engineering and Technology", "email": "asmlatifulhoque@cse.buet.ac.bd", "phone": "01556346357" }
+  ]
+}

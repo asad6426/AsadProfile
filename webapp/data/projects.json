@@ -1,0 +1,22 @@
+[
+  {
+    "id": "project-1",
+    "title": "Sample Project One",
+    "description": "একটি সংক্ষিপ্ত বিবরণ লিখুন এই প্রজেক্টটি কী সমস্যা সমাধান করে এবং আপনি কোন প্রযুক্তি ব্যবহার করেছেন। Admin প্যানেল থেকে এই তথ্য এডিট করুন।",
+    "image": null,
+    "tags": ["Django", "Python", "PostgreSQL"],
+    "link": "",
+    "github": "",
+    "featured": true
+  },
+  {
+    "id": "project-2",
+    "title": "Sample Project Two",
+    "description": "এটি একটি placeholder প্রজেক্ট। Admin প্যানেলে গিয়ে নিজের আসল প্রজেক্টের তথ্য, ছবি এবং লিংক যোগ করুন।",
+    "image": null,
+    "tags": ["React", "Next.js", "Tailwind"],
+    "link": "",
+    "github": "",
+    "featured": false
+  }
+]
