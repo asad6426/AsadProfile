@@ -239,6 +239,21 @@ a {
   border-radius: 999px;
 }
 
+/* US-based company badge */
+.us-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 /* Stat cards */
 .stat-card {
   background: #ffffff;
