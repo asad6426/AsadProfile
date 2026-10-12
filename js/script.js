@@ -1,6 +1,22 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Keep whole words together while revealing individual letters once on entry.
+const heroTitle = document.querySelector('.hero-title');
+heroTitle.setAttribute('aria-label', 'I build capable people and products.');
+let letterOrder = 0;
+heroTitle.querySelectorAll('.hero-word').forEach(word => {
+  word.setAttribute('aria-hidden', 'true');
+  const letters = [...word.textContent].map(character => {
+    const letter = document.createElement('span');
+    letter.className = 'hero-letter';
+    letter.textContent = character;
+    letter.style.setProperty('--letter-order', letterOrder++);
+    return letter;
+  });
+  word.replaceChildren(...letters);
+});
+heroTitle.style.setProperty('--headline-duration', `${letterOrder * 95 + 450}ms`);
 const backToTop = document.getElementById('backToTop');
 window.addEventListener('scroll', () => backToTop.classList.toggle('show', window.scrollY > 550), { passive: true });
 

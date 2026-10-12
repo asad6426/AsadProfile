@@ -1,8 +1,11 @@
 /* Motion is progressive enhancement: content is visible without JavaScript. */
 .hero-word { display: inline-block; }
-.motion-ready .hero-title.visible .hero-word {
-  animation: hero-word-in .85s cubic-bezier(.16,1,.3,1) both;
-  animation-delay: calc(var(--word-order) * 120ms);
+.hero-letter { display: inline-block; }
+.motion-ready .hero-title.reveal { opacity: 1; transform: none; transition: none; }
+.motion-ready .hero-title:not(.visible) .hero-letter { opacity: 0; }
+.motion-ready .hero-title.visible .hero-letter {
+  animation: hero-letter-in .4s ease-out both;
+  animation-delay: calc(var(--letter-order) * 95ms);
 }
 .hero-emphasis { position: relative; isolation: isolate; }
 .hero-emphasis::after {
@@ -10,15 +13,14 @@
   height: .07em; border-radius: 99px; background: var(--amber);
   opacity: .65; transform: scaleX(0); transform-origin: left; z-index: -1;
 }
-.motion-ready .hero-title.visible .hero-emphasis::after { animation: hero-highlight 7s ease-in-out 1.4s infinite; }
-@keyframes hero-word-in {
-  from { opacity: 0; transform: translateY(.25em) rotateX(12deg); }
-  to { opacity: 1; transform: translateY(0) rotateX(0); }
+.motion-ready .hero-title.visible .hero-emphasis::after { animation: hero-highlight .8s ease-out var(--headline-duration) both; }
+@keyframes hero-letter-in {
+  from { opacity: 0; transform: translateY(.08em); }
+  to { opacity: 1; transform: translateY(0); }
 }
 @keyframes hero-highlight {
-  0%, 100% { transform: scaleX(0); opacity: 0; }
-  15%, 65% { transform: scaleX(1); opacity: .65; }
-  85% { transform: scaleX(1); opacity: 0; }
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: .65; }
 }
 section[id], header[id], .story-step { scroll-margin-top: 100px; }
 :focus-visible { outline: 3px solid var(--amber); outline-offset: 5px; }
